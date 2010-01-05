@@ -108,10 +108,6 @@
 </head>
 <body>
 
-
-<div id="curious-box">
-		<p>Check out what we've been up to the last 30 days <a href="http://blog.teamcurious.com">on our blog</a>. Hint: it involves lots of really cool people and a video camera.</a></p>
-</div>
 <!--
 <div id="curious-box"><p>This is a <a href="http://www.teamcurious.com">curious</a> mashup.</p> <p><img class="tiny" src="images/icons/smallheart.png" alt="<3"/><a id="loveit">I love it!</a> / <img class="tiny" src="images/icons/smallmeh.png" alt=":-/"/><a id="mehit">meh.</a></p>
 

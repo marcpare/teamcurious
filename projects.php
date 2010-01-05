@@ -15,13 +15,13 @@
 		<img class="right pretty" src="images/mdgactors-screenshot.png" alt="MDG Actors screenshot" />
 		
 
-		<p><a href="http://www.teamcurious.com/actors/" >MDG Actors</a> is as much programming as it is story-telling, empathy, and design. It leverages the power of emerging web technology to provide an interactive, playful experience. Its goal is inspiration, and it provides the jumping off points for turning that inspiration into action. By itself, our website won’t overturn the “rusting DNA” our generation faces, but we hope it at least provides the same glimmer of the future for you as it does for us. It is one of our first steps in organizing our new world for a brighter tomorrow.</p>
+		<p><a href="actors" >MDG Actors</a> is as much programming as it is story-telling, empathy, and design. It leverages the power of emerging web technology to provide an interactive, playful experience. Its goal is inspiration, and it provides the jumping off points for turning that inspiration into action. By itself, our website won’t overturn the &quot;rusting DNA&quot; our generation faces, but we hope it at least provides the same glimmer of the future for you as it does for us. It is one of our first steps in organizing our new world for a brighter tomorrow.</p>
 
 		<h2>Show Me Spin</h2>
-		<p> <a href="http://www.teamcurious.com/actors/spin.php">Show Me Spin</a> layers sentiment data on top of <a href="http://www.daylife.com/">Daylife</a> news stories in order to get an overview of how specific people and topics are discussed throughout the world in various media sources. </p>
+		<p> <a href="actors/spin.php">Show Me Spin</a> layers sentiment data on top of <a href="http://www.daylife.com/">Daylife</a> news stories in order to get an overview of how specific people and topics are discussed throughout the world in various media sources. </p>
 		
 		<h2>How does Twitter feel about...</h2>
-		<p><a href="http://www.teamcurious.com/actors/twitter.php">How does Twitter feel about</a> specific topics and people throughout the world (and specifically the MDGs).  Twitter allows us to showcase how a topic is being discussed in real-time throughout the world.
+		<p><a href="actors/twitter.php">How does Twitter feel about</a> specific topics and people throughout the world (and specifically the MDGs).  Twitter allows us to showcase how a topic is being discussed in real-time throughout the world.
 	
 			This MashUp is still in experimental phases. </p>
 		<br/>

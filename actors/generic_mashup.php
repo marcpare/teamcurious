@@ -1,5 +1,5 @@
 <?php
-include("../api/curl.php");
+//include("../api/curl.php");
 
 $MASHUP_URL = 'http://www.popfly.com/users/mpare/Async%20Actors%20May%2016.content?mdgid=' . $MDG_ID . '&tcsessionid=' . $SESSION_ID;
 
