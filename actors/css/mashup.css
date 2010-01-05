@@ -1,0 +1,145 @@
+body { background: #e5e5e5; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; margin: 0px;}
+a {color: #030074; text-decoration: none; border-bottom: 1px dotted;}
+a:hover {border-bottom: 1px solid;}
+a.naked { border: none;}
+em { font-style: normal; font-weight: bold;}
+em.extra {color: #c36000;}
+
+a.quiet { text-decoration: none; border: none; color: inherit;}
+a.arrow:after { content: "\0020 \00BB";}
+h2 a.help { font-size: 50%;}
+
+p.hook {font-size:138.5%; letter-spacing: 0.5px; line-height: 1.5em;} /*renders 18px */ 
+p.quiet { color: #545454;}
+p.right {text-align: right;}
+p.help { background: #ffff99; border-top: 1px solid #ffda56; border-bottom: 1px solid #ffda56; padding: 5px;}
+
+h1 { font-size: 230.8%;}
+h2 { font-size: 182%; }
+h3 { font-size: 138.5%;}
+
+h1 em { background: #c36000; color: white; padding: 3px;}
+h3 em { color: #c36000;}
+
+#header { background: black; border: 1px solid black; border-bottom: 1px solid #434343; }
+#header h1 { color: white; font-family: "Trebuchet MS", Verdana; font-size: 60px; width: 800px; margin: 0 auto; line-height: 1em; margin-top: 1.2em;}
+#header h1 span { color: #c36000; font-style: italic; }
+#header p { color: #999999; width: 800px; margin: 0 auto; font-style: italic; letter-spacing: 2px; text-align: right; line-height: 2em; }
+
+#content {width: 690px; padding: 55px; padding-top: 30px; margin: 20px auto; background: white; border: 1px solid #d3d3d3;}
+#mdg-container ul li { list-style: none;}
+#mdg-container ul li:before{ content: "\2014"; }
+#curious-box {position: fixed; top: 0; right: 20%; background: #ffff99; border: 1px solid #ffda56; border-top: none; padding: 5px;}
+
+#footer { background: black; color: white; border-top: 10px solid #c36000; height: 315px; padding-top: 10px;}
+#footer a { color: white;}
+#footer h4 { color: #c36000; }
+#footer > ul {width: 800px; margin: 0 auto;}
+#footer > ul > li { float: left; position: relative;}
+#footer li { list-style-type: none; margin-right: 30px;}
+#footer ul ul {margin-left: 0px;}
+#footer ul ul li { line-height: 2em;}
+#footer img.tiny { margin-right: 3px; margin-bottom: -3px;}
+
+#mdg-container {width: 689px; height: 473px; padding-top: 10px; background: url(../images/badasses/ghandi.jpg);}
+#mdg-container h1, #mdg-container li {font-size: 30px; font-family: "Trebuchet MS", Verdana; background: white; float: left; clear: both; padding: 0px 5px 0px 30px; }
+
+#mdg-container ul { margin: 0;}
+#mdg-container li { margin-bottom: 10px;}
+#mdg-container h1 {font-weight: normal;}
+#mdg-container a {color: black; border: none;}
+#mdg-container li:hover {color: white; background: #c36000;}
+#mdg-container a:hover {color: white;}
+
+#mashup-container { margin-left: -25px; width: 745px; }
+#mashup-container { background: white url(../images/mashup-back.gif) repeat-y;}
+#mashup-top { background: white url(../images/mashup-top.gif) no-repeat; height: 24px; }
+#mashup-bottom { background: white url(../images/mashup-bottom.gif) no-repeat; height: 18px; clear: both;}
+
+#mashup-frame { padding-left: 12px; padding-right: 230px; }
+
+
+#mashup-content { padding: 0; background: #f1f1f1;}
+#mashup-content ul { margin: 0; padding: 0; background: #f1f1f1;}
+#mashup-content ul ul { margin-top: 10px;}
+#mashup-content ul li { list-style-type: none; margin: 0; margin-bottom: 10px; background: #f1f1f1; }
+#mashup-content > ul > li { border-bottom: 5px solid black;}
+#mashup-content ul li ul li { font-size: 14px; }
+#mashup-content h2 { font-size: 22px; letter-spacing: -1px; font-weight: bold; margin: 0;}
+
+#mashup-content span { padding-top: 1px; padding-bottom: 1px; }
+#mashup-content a { color: inherit;}
+
+#mashup-content li.neutral, #mashup-content li.positive, #mashup-content li.negative {
+	padding-left: 96px; padding-top: 10px; padding-bottom: 10px;
+}
+#mashup-content li.positive { background: #dedede url(../images/heart-callout.png) no-repeat; min-height: 43px; }
+#mashup-content li.negative { background: #dedede url(../images/frown-callout.png) no-repeat; min-height: 43px; }
+#mashup-content .person {font-weight: bold; text-decoration: underline;}
+
+ul.blocky { margin: 0;}
+ul.blocky li { list-style-type: none; margin: 0px; text-transform: uppercase; background: #cfcfcf; margin-bottom: 8px; padding: 5px; color: black;}
+ul.blocky li:hover { background: #c36000; color: white;}
+ul.blocky a { color: inherit;}
+
+#mashup-sidebar { float: right; width: 200px; margin-right: 15px; border-left: 1px solid #b2b2b2; padding-left: 10px;}
+
+blockquote { font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif; background: url(../images/quote.gif) no-repeat; padding-left: 70px; margin-left: 0; line-height: 1.5em;}
+blockquote div.citation { text-align: right;}
+blockquote div.citation p.author:before{ content: "\2014"; }
+blockquote div.citation p.author a { font-style: italic; }
+blockquote div.citation p.source {text-transform: uppercase; color: #545454;}
+blockquote div.citation p.source a {text-transform: uppercase; color: #545454;}
+
+/*---------- bubble tooltip -----------*/
+.tt{ position: static;}
+.tt span{ display: none; padding: 0px;}
+
+/* 	Thrashbox rounded corners technique
+	http://www.vertexwerks.com/tests/sidebox/ 
+
+	- modified to use actually transparent corners
+	- added callout arrow thingy
+*/
+	
+/* Show only to IE PC \*/
+* html .callout h2 {height: 1%;} /* For IE 5 PC */
+
+.callout {
+	position: relative;
+	width: 18em; /* ems so it will grow */
+	background: url(../images/callout/bottomright.gif) no-repeat bottom right;
+	left: 0;
+}
+.boxhead {
+	background: url(../images/callout/topright.gif) no-repeat top right;
+	margin: 0;	
+	position: relative;
+}
+.boxhead h2 {
+	background: url(../images/callout/topleft.gif) no-repeat top left;
+	margin: 0px;
+	padding-top: 1px;
+}
+.boxbody {
+	background: url(../images/callout/bottomleft.gif) no-repeat bottom left;
+	margin: 0;
+	padding: 5px;
+	font-weight: normal;
+}
+
+p.arrowtop { position: absolute; left: 10%; top: -8px; z-index: 50; margin: 0; line-height: 0px; }
+p.arrowtop img { width: 200px; margin-left: -100px; }
+
+p.arrowright { position: absolute; top: 50%; right: -7px;}
+p.arrowright img {  margin-top: -8px; display: block; }
+
+.explore-button { padding-top: 3px; padding-left: 24px; border: none; text-decoration: underline; }
+.explore-button:hover { border: none;}
+.wiki { background: url(../images/icons/wiki.png) no-repeat center left;}
+.daylife { background: url(../images/icons/daylife.png) no-repeat center left;}
+.google { background: url(../images/icons/google.png) no-repeat center left;}
+.twitter { background: url(../images/icons/twitter.png) no-repeat center left;}
+.spin { background: url(../images/icons/spin.png) no-repeat center left;}
+
+html { overflow-y: auto;}

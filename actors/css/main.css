@@ -1,0 +1,171 @@
+
+body { background: #e5e5e5; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; margin: 0px;}
+a {color: #030074; text-decoration: none; border-bottom: 1px dotted;}
+a:hover {border-bottom: 1px solid;}
+em { font-style: normal; font-weight: bold;}
+em.extra {color: #c36000;}
+
+a.quiet { text-decoration: none; border: none; color: inherit;}
+a.arrow:after { content: "\0020 \00BB";}
+h2 a.help { font-size: 50%;}
+
+.hook {font-size:138.5%; letter-spacing: 0.5px; line-height: 1.5em;} /*renders 18px */ 
+p.quiet { color: #545454;}
+p.right {text-align: right;}
+p.help { background: #ffff99; border-top: 1px solid #ffda56; border-bottom: 1px solid #ffda56; padding: 5px;}
+
+div.right { float: right; }
+
+h1 { font-size: 230.8%;}
+h2 { font-size: 182%; }
+h3 { font-size: 138.5%;}
+
+h1 em { background: #c36000; color: white; padding: 3px;}
+h3 em { color: #c36000;}
+
+#header { background: black; border: 1px solid black; border-bottom: 1px solid #434343; }
+#header h1 { color: white; font-family: "Trebuchet MS", Verdana; font-size: 60px; width: 800px; margin: 0 auto; line-height: 1em; margin-top: 1.2em;}
+#header h1 span { color: #c36000; font-style: italic; }
+#header p { color: #999999; width: 800px; margin: 0 auto; font-style: italic; letter-spacing: 2px; text-align: right; line-height: 2em; }
+
+#content {width: 690px; padding: 55px; padding-top: 30px; margin: 20px auto; background: white; border: 1px solid #d3d3d3;}
+#mdg-container ul li { list-style: none;}
+#mdg-container ul li:before{ content: "\2014"; }
+
+#curious-box {position: absolute; top: 0; right: 10%; background: #ffff99 url(../images/emote_biggrin.png) no-repeat; border: 1px solid #ffda56; border-top: none; padding: 5px; padding-bottom: 0; padding-left: 50px; font-size: 127%; width: 300px;}
+#curious-box p { margin-bottom: 0.5em;}
+#share1, #share2, #opinion { display: none;}
+
+#footer { background: black; color: white; border-top: 10px solid #c36000; height: 315px; padding-top: 10px;}
+#footer a { color: white;}
+#footer h4 { color: #c36000; }
+#footer > ul {width: 800px; margin: 0 auto;}
+#footer > ul > li { float: left; position: relative;}
+#footer li { list-style-type: none; margin-right: 10px;}
+#footer ul ul {margin-left: 0px;}
+#footer ul ul li { line-height: 2em;}
+img.tiny { margin-right: 3px; margin-bottom: -3px;}
+
+#mdg-container {width: 689px; height: 473px; padding-top: 10px; background: url(../images/badasses/ghandi.jpg);}
+#mdg-container h1, #mdg-container li {font-size: 30px; font-family: "Trebuchet MS", Verdana; background: white; float: left; clear: both; padding: 0px 5px 0px 30px; }
+#mdg-container ul { margin: 0;}
+#mdg-container li { margin-bottom: 10px;}
+#mdg-container h1 {font-weight: normal;}
+#mdg-container a {color: black; border: none;}
+#mdg-container li:hover {color: white; background: #c36000;}
+#mdg-container a:hover {color: white;}
+#mashup-container { margin-left: -25px; width: 760px; }
+#mashup-container { background: white url(../images/mashup-back.gif) repeat-y;}
+
+#mashup-top { background: white url(../images/mashup-top.gif) no-repeat; height: 24px; }
+#mashup-bottom { background: white url(../images/mashup-bottom.gif) no-repeat; height: 18px; clear: both;}
+
+#mashup-intro { padding-left: 12px;}
+#mashup-intro > div{ float: left; width: 180px;}
+#mashup-intro .wider { width: 220px;}
+#mashup-intro .narrower { width: 160px;}
+#mashup-frame { padding-left: 12px; clear: both;}
+
+#mashup-content ul { margin: 0; }
+#mashup-content ul ul { margin-top: 10px;}
+#mashup-content ul li { list-style-type: none; margin-bottom: 10px; }
+#mashup-content > ul > li { border-bottom: 1px dotted black;}
+#mashup-content ul li ul li { font-size: 138.5%; }
+#mashup-content h2 { background: black; color: white; display: inline; font-weight: normal; padding: 4px; line-height: 1.5em; }
+
+#mashup-content span { padding-top: 2px; padding-bottom: 2px; }
+#mashup-content a { color: black;}
+#mashup-content .upset { text-align: right; }
+#mashup-content .upset span { background: #f7baac; border-top: 1px solid red; border-bottom: 1px solid red; }
+#mashup-content .happy span { background: #d5ffd0; border-top: 1px solid green; border-bottom: 1px solid green;}
+
+ul.blocky { margin: 0;}
+ul.blocky li { list-style-type: none; margin: 0px; text-transform: uppercase; background: #cfcfcf; margin-bottom: 8px; padding: 5px; color: black;}
+ul.blocky li:hover { background: #c36000; color: white;}
+ul.blocky a { color: inherit;}
+
+#mashup-sidebar { float: right; width: 200px; margin-right: 15px; border-left: 1px solid #b2b2b2; padding-left: 10px;}
+
+/* font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif; */
+blockquote { background: url(../images/quote.gif) no-repeat; padding-left: 70px; margin-left: 0; min-height: 60px; }
+blockquote div.citation { text-align: right;}
+blockquote div.citation p.author:before{ content: "\2014"; }
+blockquote div.citation p.author a { font-style: italic; }
+blockquote div.citation p.source {text-transform: uppercase; color: #545454;}
+blockquote div.citation p.source a {text-transform: uppercase; color: #545454;}
+
+/*---------- bubble tooltip -----------*/
+
+.tt{ position:relative; z-index:24; }
+.tt span{ display: none; padding: 0px;}
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+.tt:hover{ z-index:25; }
+.tt:hover span.tooltip{ display:block; position:absolute; top:24px; left:50%; color: black; }
+
+label, textarea, input { display: block; margin-bottom: 10px;}
+
+
+
+/* 	Thrashbox rounded corners technique
+	http://www.vertexwerks.com/tests/sidebox/ 
+
+	- modified to use actually transparent corners
+	- added callout arrow thingy
+*/
+	
+/* Show only to IE PC \*/
+* html .callout h2 {height: 1%;} /* For IE 5 PC */
+
+.callout {
+	position: relative;
+	width: 17em; /* ems so it will grow */
+	background: url(../images/callout/bottomright.gif) no-repeat bottom right;
+	left: -50%;
+}
+.boxhead {
+	background: url(../images/callout/topright.gif) no-repeat top right;
+	margin: 0;	
+	position: relative;
+}
+.boxhead h2 {
+	background: url(../images/callout/topleft.gif) no-repeat top left;
+	margin: 0px;
+	padding: 5px;
+}
+.boxbody {
+	background: url(../images/callout/bottomleft.gif) no-repeat bottom left;
+	margin: 0;
+	padding: 5px;
+}
+
+p.arrowtop { position: absolute; left: 50%; top: -8px; z-index: 50; margin: 0; line-height: 0px; }
+p.arrowtop img { width: 200px; margin-left: -100px; }
+
+p.arrowright { position: absolute; top: 50%; right: -7px;}
+p.arrowright img {  margin-top: -8px; display: block; }
+
+#mashup-intro dl, ul { margin-left: 0;}
+#mashup-intro ul li { list-style: none;}
+
+.verypositive, .positive, .neutral, .negative, .verynegative { font-weight: bold; padding: 1px;}
+.verynegative { background-color: #ff0000; color: white;}
+.negative { background-color: #ff6666;}
+.positive { background-color: #ccff99;}
+.verypositive { background-color: #33cc00; color: black;}
+
+#mashup-intro { padding-right: 20px;}
+p.intro { padding-left: 100px; min-height: 80px; font-size: 108%; }
+span.intro { font-size: 138.5%;}
+#intro1 { background: url(../images/icons/marvin.png) no-repeat;}
+#intro2 { background: url(../images/icons/explore.png) no-repeat;}
+#intro3 { background: url(../images/icons/empathize.png) no-repeat;}
+#intro4 { background: url(../images/icons/world.png) no-repeat;}
+
+#mashup-intro { padding-right: 30px;}
+p.right { text-align: right;}
+#expandIntro { display: none;}
+
+img.centered { margin: 0: auto;}
+img.right { float: right;}
+img.pretty { padding: 1px; border: 1px solid gray;}
+.clear { clear: both; display: block;}

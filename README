@@ -1,0 +1,3 @@
+Team Curious was started in the Fall of 2008 for Microsoft's Imagine Cup. During the course of the year, we built a couple of mashups to address the United Nations Millenium Development goals. Eventually, we ended up as world champions for our work. 
+
+The site was originally based of off the Popfly framework provided by Microsoft. However, this service has since been discontinued. This project is meant to rebuild the old functionality using new tools (probably a jQuery powered site with a Ruby crawler on the backend)

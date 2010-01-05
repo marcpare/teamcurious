@@ -1,0 +1,9 @@
+input, fieldset, form { display: inline; font-size: 93%;}
+input, fieldset, form { margin: 0; padding: 0; margin-bottom: -5px;}
+
+#mashup-content {padding-top: 10px;}
+#mashup-content h2 { background: none; color: black;}
+#mashup-content h2 img { margin-bottom: -10px;}
+#mashup-content ul { margin-top: 10px;}
+#mashup-content ul li { border: none; display: inline-block; width: 220px; vertical-align: top; padding-right: 10px;}
+#mashup-content ul li p.from { text-align: right;}
